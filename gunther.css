@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=Stoke);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
+
+@import url(http://fonts.googleapis.com/css?family=Corben:400,700);
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Stoke', serif;
+}
+
+html {
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Corben', sans-serif;
+    font-size: 64px;
+    color: #3E4261;
+    text-align: center;
+    padding: 16px;
+    text-shadow: 2px 2px 6px rgb(57, 94, 61);
+}
+
+header, section, footer {
+    display: block;
+}
+
+body { 
+    color: #666;
+    text-align: center;
+}
+
+p {
+    margin: 14px;
+}
+
+a { 
+    color: rgb(75, 163, 82);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #00BD17;
+    text-decoration: underline;
+}
+
+article {
+    margin-left: 180px;
+    text-align: left;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 15px auto;
+    text-align: ;
+}
+
+#main_header {
+    padding: 20px;
+    color: #3B3C46;
+}
+
+#tagline {
+    background: #00BD17;
+    color: #dbdbdb;
+    padding: 14px;
+    font-weight: bold;
+    font-size: 120%;
+    border: 1px dotted #78d88b;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+#main_section {
+    float: left;
+    width: 860px;
+    margin: 50px;
+}
+
+#main_footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #999999;
+    font-size: 70%;
+}
+
+#notice {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #FBFFDD;
+    border: 1px solid #ECE375;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#error {
+    font-size: 120%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 10px;
+    background-color: rgb(253, 178, 178);
+    border: 1px solid rgb(255, 53, 53);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#mail {
+    background-color: #f4f4f4;
+    font-size: 9px;
+    text-align: center;
+    margin: 20px 10px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#mail input, label, textarea {
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+
+#mail label {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+#mail h1 {
+    font-size: 32px;
+}
+
+#form_div {
+    text-align: left;
+    margin-left: 240px;
+}
