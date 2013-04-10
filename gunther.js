@@ -21,7 +21,7 @@ $(document).ready(function() {
   });
 
 	$('#submit').click( function() {
-		$.post("contact.php", $("#mail_form").serialize(),
+		$.post("contact", $("#mail_form").serialize(),
 			function(data){
 				if (data.status == "OK") {
 					$('#notice').html(data.notice);
