@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8">
-        <meta name="description" content="Gunther Labs is a custom software and solutions company specializing in Ruby on Rails, JavaScript, PHP, JQuery, and CoffeeScript">
-        <meta name="keywords" content="ruby, rails, ruby on rails, javascript, jquery, php, coffeescript, custom software, staff augmentation, chattanooga, tennessee, java, software, architecture, framework, mvc">
-        <title>Gunther Labs - Software Works</title>
-        <link rel="stylesheet" href="gunther.css">
-        <script src="jquery.js"></script>
-        <script src="gunther.js"></script>
+  <meta charset="utf-8">
+  <meta name="description" content="Gunther Labs is a custom software and solutions company specializing in Ruby on Rails, JavaScript, PHP, JQuery, and CoffeeScript">
+  <meta name="keywords" content="ruby, rails, ruby on rails, javascript, jquery, php, coffeescript, custom software, staff augmentation, chattanooga, tennessee, java, software, architecture, framework, mvc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gunther Labs - Software Works</title>
+
+  <!-- load bootstrap -->
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+  <!-- load flat-ui -->
+  <link href="css/flat-ui.css" rel="stylesheet">
+
+  <!-- finally out custom stylesheet -->
+  <link rel="stylesheet" href="gunther.css">
+
+  <!-- HTML5 shim, for IE608 support of HTML5 elements. All other JS at the end of file. -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+
+  <script src="jquery.js"></script>
+  <script src="gunther.js"></script>
 </head>
 <body>
-  <div id="wrapper">
+  <div class="container">
+
+  <!-- <div id="wrapper"> -->
       <section id="main_section">
       <h1>Gunther Labs</h1>
-      <div id="tagline">
+      <div id="tagline" class="palette-orange">
       web design, custom software, application development
       </div>
       <div id="notice"></div>
@@ -25,7 +44,7 @@
         no problem! We work remotely very well.
         </p>
         <p>
-        <a id="contact" href="#">Contact Gunther Labs</a>
+        <a id="contact" href="#" class="btn btn-medium btn-primary">Contact Gunther Labs</a>
         </p>
       </div>
       <div id="mail">
@@ -42,51 +61,56 @@
           <label for="your_message"></label><br />
           <textarea id="your_message" name="your_message" rows="3" cols="60"></textarea>
           <br />
-          <input id="submit" type="button" value="Send">
-          <input id="cancel" type="button" value="Cancel">
+          <input id="submit" type="button" value="Send" class="btn btn-large btn-primary">
+          <input id="cancel" type="button" value="Cancel" class="btn btn-large">
         </form>
         </div>
       </div>
-      <div id="technology">
+
+      <div id="technology" class="row demo-tiles">
         <h1>Technologies We &lt;3</h1>
         <p>
           We love technology. We always try to use the right tool for the job
           but currently we're super excited about Ruby on Rails, jQuery, and
           Clojure. 
         </p>
-        <ul id="techlist">
-          <li>
+
+        <div class="span3">
+          <div class="tile">
+
             <img src="images/rails.png">
-            <!--
-            <h2>Ruby on Rails</h2>
+            <h3 class="tile-title">Ruby on Rails</h3>
             <p>Ruby on Rails is that super hot web framework with the 
               beautiful Ruby programming language. So much fun and 
-              <b>powerful</b>.
-            -->
-          </li>
-          <li>
+              <b>powerful</b>.</p>
+          </div>
+        </div>
+
+        <div class="span3">
+          <div class="tile">
+
             <img src="images/jquery-mark-light.png">
-            <!-- 
-            <h2>jQuery</h2>
+            <h3>jQuery</h3>
             <p>
               What can we say? jQuery is the reigning king of the 
               JavaScript libraries. It is a joy to work with and makes
               the browser wars a thing of the past (for now).
             </p>
-          -->
-          </li>
-          <li>
+          </div>
+        </div>
+        <div class="span3">
+          <div class="tile">
             <img src="images/clojure-icon.gif">
-            <!-- 
+            
             <h2>Clojure</h2>
             <p>
-              Clojure is... well... different. A LISP based language,
+              Clojure is, well, different. A LISP based language,
               it provides the simplicity of a purely functional programming
-              language but holds the power of a full Java stack. We loves it.
+              language but holds the power of a full Java stack. 
             </p>
-          -->
-          </li>
-        </ul>
+          </div>
+        </div>
+          
       </div>
       <p>
       phone [ 423.380.8338 ]

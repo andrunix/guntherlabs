@@ -68,12 +68,10 @@ article {
 }
 
 #tagline {
-    background: rgb(1, 175, 22);
-    color: #dbdbdb;
+    color: #ffffff;
     padding: 14px;
     font-weight: bold;
     font-size: 120%;
-    border: 1px dotted #78d88b;
     -webkit-border-top-left-radius: 20px;
     -webkit-border-bottom-right-radius: 20px;
     -moz-border-radius-topleft: 20px;
